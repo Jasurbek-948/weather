@@ -1,0 +1,76 @@
+.Main{
+  height: 100vh;
+  background-color: #d8d8d8;
+  padding: 24px;
+}
+.InputWrap{
+  display: flex;
+  height: 50px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
+}
+.Input{
+  width: 80%;
+  padding: 4px 8px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #3a8ac0;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  outline: 0;
+}
+.Button{
+  width: 20%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.CardList{
+  display: flex;
+}
+.Icon{
+  width: 150px;
+}
+.Card{
+  width: 33%;
+  height: fit-content;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #3a8ac0;
+  font-size: 14px;
+  color: white;
+  margin-left: 24px;
+  box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
+
+}
+.Card:first-child{
+  margin-left: 0;
+}
+.MainInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Title{
+  font-size: 24px;
+  font-weight: 500;
+}
+.Description{
+  margin-top: 4px;
+  font-size: 16px;
+}
+.Temperatura{
+  margin-top: 12px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.Temperatura::after{
+  content: "°";
+}
+.Information{
+  margin-top: 12px;
+}
+.Information > div{
+  margin-top: 4px;
+}
